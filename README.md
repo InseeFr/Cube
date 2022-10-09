@@ -12,14 +12,13 @@ La macro SAS CUBE est disponible sous forme compilée pour différentes versions
 
 La compilation du code source mis à disposition ici s'effectue via les trois lignes de code suivantes :
 
-libname lib_cube 'Z:\Cube';    
-options mstored sasmstore=lib_cube;    
-%include 'Z:\Cube\Cube.sas';
+    libname lib_cube 'Z:\Cube';
+    options mstored sasmstore=lib_cube;
+    %include 'Z:\Cube\Cube.sas';
 
 où dans cet exemple, le code source de la macro (fichier Cube.sas) est stocké dans le répertoire « Z:\Cube », qui contiendra aussi la version compilée de la macro.
 
 Pour utiliser ensuite cette version compilée de la macro dans un autre programme, il suffit de l'appeler en début de ce programme via les deux lignes de codes suivantes :
 
-libname lib_cube 'Z:\Cube';    
-options mstored sasmstore=lib_cube;   
-.
+    libname lib_cube 'Z:\Cube';
+    options mstored sasmstore=lib_cube;
