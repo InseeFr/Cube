@@ -6,7 +6,7 @@ La macro s’applique à partir de bases de sondage munies d’informations auxi
 
 Cette méthode permet d’améliorer la précision des estimateurs associés aux variables d’intérêt de l’enquête, dès lors que ces variables sont corrélées avec celles utilisées pour l’équilibrage.
 
-Les principaux contributeurs à l'élaboration de cette macro sont Jean-Claude Deville et Yves Tillé pour la théorie de l'échantillonnage équilibré, et Frédéric Tardieu, Bernard Weytens et Guillaume Chauvet pour le développement de la macro Cube permettant sa mise en œuvre.
+Les principaux contributeurs à l'élaboration de cette macro sont Jean-Claude Deville et Yves Tillé pour la théorie de l'échantillonnage équilibré, et Frédéric Tardieu, Bernard Weytens et Guillaume Chauvet pour le développement de la macro CUBE permettant sa mise en œuvre.
 
 La macro SAS CUBE est disponible sous forme compilée pour différentes versions de SAS sur le [site de l'Insee](https://www.insee.fr/fr/information/2021904), ainsi que sa [documentation](https://www.insee.fr/fr/statistiques/fichier/2021904/documentation_cube_web.pdf) exposant succinctement les aspects théoriques du tirage équilibré et détaillant sa mise en oeuvre pratique, avec des exemples.
 
