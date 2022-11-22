@@ -22,3 +22,5 @@ Pour utiliser ensuite cette version compilée de la macro dans un autre programm
 
     libname lib_cube 'Z:\Cube';
     options mstored sasmstore=lib_cube;
+
+Note : la macro CUBE utilise les modules SAS/IML et SAS/GRAPH du logiciel SAS.
